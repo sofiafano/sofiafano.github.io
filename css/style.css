@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #fafafa;
-    color: #333;
+    background-color: #2e1e16;
+    color: #ffffff;
     line-height: 1.6;
 }
 
@@ -18,8 +18,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-    color: white;
+    background: linear-gradient(135deg, #4a3023 0%, #2e1e16 100%);
+    color: #ffffff;
     text-align: center;
     padding: 0 20px;
 }
@@ -28,30 +28,32 @@ body {
     font-size: 4rem;
     margin-bottom: 10px;
     letter-spacing: -1px;
-    text-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    text-shadow: 0 10px 20px rgba(0,0,0,0.4);
 }
 
 .hero-content p {
     font-size: 1.5rem;
     margin-bottom: 40px;
     opacity: 0.9;
+    color: #e0d4c8;
 }
 
 .btn {
     display: inline-block;
     padding: 15px 35px;
-    background-color: #fff;
-    color: #6d28d9;
+    background-color: #d4a373;
+    color: #2e1e16;
     text-decoration: none;
     border-radius: 50px;
     font-weight: 600;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 
 .btn:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+    background-color: #faedcd;
 }
 
 .portfolio {
@@ -64,7 +66,7 @@ body {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 60px;
-    color: #1e293b;
+    color: #ffffff;
 }
 
 .grid {
@@ -74,16 +76,16 @@ body {
 }
 
 .card {
-    background: #fff;
+    background: #3e2a20;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .card:hover {
     transform: translateY(-12px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
 }
 
 .card-img {
@@ -102,18 +104,18 @@ body {
 .card-body h3 {
     margin-bottom: 12px;
     font-size: 1.4rem;
-    color: #0f172a;
+    color: #ffffff;
 }
 
 .card-body p {
-    color: #64748b;
+    color: #e0d4c8;
     font-size: 0.95rem;
 }
 
 footer {
     text-align: center;
     padding: 40px;
-    background-color: #0f172a;
-    color: #cbd5e1;
+    background-color: #1a110c;
+    color: #a69b93;
     font-size: 0.9rem;
 }
