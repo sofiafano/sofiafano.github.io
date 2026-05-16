@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Dancing+Script:wght@400;600;700&display=swap');
 
 * {
     margin: 0;
@@ -59,9 +59,9 @@ body {
 }
 
 .top-text h1 {
-    font-family: 'Satisfy', cursive;
-    font-size: 3.8rem;
-    font-weight: normal; 
+    font-family: 'Dancing Script', cursive; /* AQUÍ SE APLICA DANCING SCRIPT */
+    font-size: 4.5rem; /* Ligeramente más grande para compensar el estilo */
+    font-weight: 700; 
     text-transform: none; 
     line-height: 1.1;
     margin-bottom: 10px;
@@ -255,7 +255,7 @@ footer {
         text-align: center;
     }
     
-    .top-text h1 { font-size: 3rem; }
+    .top-text h1 { font-size: 3.5rem; }
     
     .main-image {
         height: 300px;
