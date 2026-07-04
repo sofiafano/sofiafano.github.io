@@ -132,5 +132,23 @@
 
     <script async src="//www.instagram.com/embed.js"></script>
     <script async src="https://www.tiktok.com/embed.js"></script>
+    <script>
+        function changeSlide(btn, direction) {
+            const carousel = btn.closest('.reel-carousel');
+            const slides = carousel.querySelectorAll('.slide');
+            
+            let activeIndex = Array.from(slides).findIndex(slide => slide.classList.contains('active'));
+            
+            slides[activeIndex].classList.remove('active');
+            
+            activeIndex = (activeIndex + direction + slides.length) % slides.length;
+            
+            slides[activeIndex].classList.add('active');
+            
+            if (window.instgrm) {
+                instgrm.Embeds.process();
+            }
+        }
+    </script>
 </body>
 </html>
