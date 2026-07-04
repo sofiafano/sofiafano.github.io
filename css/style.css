@@ -470,6 +470,15 @@ footer a:hover {
     }
 }
 
+/* Ajuste responsivo para embeds de Instagram y TikTok */
+.instagram-media,
+.tiktok-embed {
+    min-width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Carrusel de reels para mostrar varios a la vez */
+
 .reel-carousel {
     display: flex;
     align-items: center;
