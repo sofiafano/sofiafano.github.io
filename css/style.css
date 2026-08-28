@@ -510,11 +510,10 @@ footer a:hover {
     transform: scale(1.2);
 }
 
-/* Embed de YouTube Shorts (vertical 9:16) */
+/* Embed de YouTube Shorts — mismo ancho que los reels, proporción vertical 9:16 */
 
 .youtube-short {
     width: 100%;
-    max-width: 350px;
     margin: 0 auto;
     aspect-ratio: 9 / 16;
 }
